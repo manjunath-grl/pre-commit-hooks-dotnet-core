@@ -24,4 +24,4 @@
     name: dotnet Unit test
     entry: dotnet-test.sh
     language: script
-    files: '\.(cs|vb|csproj)$'
+    #files: '\.(cs|vb|csproj)$'
