@@ -20,11 +20,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
--   id: dotnet-format
-    name: dotnet-format
-    entry: dotnet format --files
-    language: system
-    files: '\.(cs|vb)$'
 -   id: dotnet-test
     name: dotnet Unit test
     entry: dotnet-test.sh
