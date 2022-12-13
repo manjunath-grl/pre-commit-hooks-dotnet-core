@@ -1,16 +1,6 @@
 #!/bin/sh
 
-echo "dotnet build"
-
-dotnet clean; dotnet build
-rc=$?
-
-if [[ $rc != 0 ]] ; then
-    echo -e "build failed"
-    exit $rc
-fi
-
-dotnet "dotnet test"
+dotnet test
 
 rc=$?
 
